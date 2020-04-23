@@ -1,10 +1,10 @@
 ```
-       _                                                     
- _ __ | |__  _ __  _ __ ___   ___ _   _ ___  __ _  __ _  ___ 
+       _
+ _ __ | |__  _ __  _ __ ___   ___ _   _ ___  __ _  __ _  ___
 | '_ \| '_ \| '_ \| '__/ _ \ / __| | | / __|/ _` |/ _` |/ _ \
 | | | | |_) | |_) | | | (_) | (__| |_| \__ \ (_| | (_| |  __/
 |_| |_|_.__/| .__/|_|  \___/ \___|\__,_|___/\__,_|\__, |\___|
-            |_|                                   |___/      
+            |_|                                   |___/
 ```
 
 ### Introduction
@@ -17,15 +17,14 @@ Jupyter notebook extension to overview the process usage of running notebook usi
 
 **nbprocusage:**
 
-- nb as in - notebook 
+- nb as in - notebook
 - proc as in - process
 - usage as in - cpu and memory usage of the running process
 
 ---
 
 ### Installation
-- clone the project
-- `$ pip install .`
+- `$ pip install -i https://test.pypi.org/simple/ nbprocusage`
 - `$ jupyter serverextension enable --py nbprocusage --user`
 - `$ jupyter nbextension install --py nbprocusage --user`
 - `$ jupyter nbextension enable --py nbprocusage --user`
