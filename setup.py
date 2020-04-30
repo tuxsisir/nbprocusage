@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nbprocusage",
-    version="0.1",
+    version="0.1.1",
     author="Sisir Ghimire Chettri",
     author_email="samratsisir294@gmail.com",
     description="Dead simple extension of jupyter notebook to overview process usage.",
