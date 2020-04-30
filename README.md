@@ -10,10 +10,12 @@
 ### Introduction
 -----
 Jupyter notebook extension to overview the process usage of running notebook using psutil.
+This project is inspired from [nbresuse](http://github.com/yuvipanda/nbresuse/).
 
 **Preview**
 
 ![alt-text](screenshot.png)
+---
 
 **nbprocusage:**
 
@@ -28,3 +30,15 @@ Jupyter notebook extension to overview the process usage of running notebook usi
 - `$ jupyter serverextension enable --py nbprocusage --user`
 - `$ jupyter nbextension install --py nbprocusage --user`
 - `$ jupyter nbextension enable --py nbprocusage --user`
+
+---
+
+### Similar Projects
+- [nbresuse](http://github.com/yuvipanda/nbresuse/)
+
+---
+### License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
