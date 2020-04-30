@@ -43,7 +43,7 @@ define([
             dataType: 'json',
             success: function(data) {
                 let cpuUsage = data['cpu'] + " %";
-                let memUsage = humanFileSize(data['mem']) + " of " + humanFileSize(data['total_mem']);
+                let memUsage = humanFileSize(data['mem']);
                 $('#usage-cpu').text(cpuUsage);
                 $('#usage-mem').text(memUsage);
             }

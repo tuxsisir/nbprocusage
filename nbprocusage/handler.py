@@ -20,8 +20,7 @@ class ResourceUsageHandler(IPythonHandler):
             if kernel_name == kernel:
                 resource_data = {
                     'cpu': process.cpu_percent(),
-                    'mem': process.memory_info().rss,
-                    'total_mem': psutil.virtual_memory().total
+                    'mem': process.memory_info().rss
                 }
         self.write(json.dumps(resource_data))
 
